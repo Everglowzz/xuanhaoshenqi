@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/main_bg"
+                android:fitsSystemWindows="false">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:titleTextColor="@color/white"
+            android:background="@color/colorPrimary"
+            app:title="车牌前缀查询">
+
+
+        </android.support.v7.widget.Toolbar>
+
+      
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_46"
+            android:layout_marginRight="@dimen/margin_20"
+            android:layout_marginBottom="@dimen/margin_20">
+
+            <TextView
+                android:id="@+id/tv1"
+                style="@style/text_norm_black"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/shape_white_8r"
+                android:gravity="center"
+                android:text="选择省份"/>
+
+            <TextView
+                android:id="@+id/tv2"
+                style="@style/text_norm_black"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/shape_white_8r"
+                android:drawableLeft="@drawable/ic_xiangmuchaxun"
+                android:drawablePadding="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="查询"
+                />
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/tv3"
+                style="@style/text_norm_black"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:drawableTop="@drawable/ic_jiqiao"
+                android:drawablePadding="5dp"
+                android:textColor="#e36e20"
+                android:layout_marginRight="@dimen/margin_46"
+                android:text="上牌技巧"
+                />
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"
+            android:layout_marginBottom="@dimen/margin_20">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

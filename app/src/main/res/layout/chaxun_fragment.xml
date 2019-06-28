@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/cuaxunbg"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:titleTextColor="@color/white"
+        android:background="@color/colorPrimary"
+        app:title="查询大全"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/cuaxunbg"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="#99fcf7f7"
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rl1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:drawableTop="@drawable/ic_tu2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="交管所查询"
+                android:textColor="@color/main_gray1"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:drawableTop="@drawable/ic_tu1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="车管所查询"
+                android:textColor="@color/main_gray1"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:drawableTop="@drawable/ic_tu6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="驾校查询"
+                android:textColor="@color/main_gray1"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#99fcf7f7"
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rl4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:drawableTop="@drawable/ic_tu3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="车标查询"
+                android:textColor="@color/main_gray1"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:drawableTop="@drawable/ic_tu7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="交通标志查询"
+                android:textColor="@color/main_gray1"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:drawableTop="@drawable/ic_tu8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="出租车叫车查询"
+                android:textColor="@color/main_gray1"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
+   
+
+
+</LinearLayout>

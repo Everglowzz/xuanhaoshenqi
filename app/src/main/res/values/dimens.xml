@@ -1,0 +1,86 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size">12sp</dimen>
+    <dimen name="switch_layout_height">40dp</dimen>
+    <!-- text size -->
+    <dimen name="f0">10sp</dimen>
+    <dimen name="f1">11sp</dimen>
+    <dimen name="f2">12sp</dimen>
+    <dimen name="f3">13sp</dimen>
+    <dimen name="f4">14sp</dimen>
+    <dimen name="f5">15sp</dimen>
+    <dimen name="f6">16sp</dimen>
+    <dimen name="f7">17sp</dimen>
+    <dimen name="f8">18sp</dimen>
+    <dimen name="f9">19sp</dimen>
+    <dimen name="f10">20sp</dimen>
+    <dimen name="f11">21sp</dimen>
+    <dimen name="f12">22sp</dimen>
+    <dimen name="f13">23sp</dimen>
+    <dimen name="f14">24sp</dimen>
+    <dimen name="f15">25sp</dimen>
+
+    <!--Common margin and padding-->
+    <dimen name="m1">1dp</dimen>
+    <dimen name="m2">2dp</dimen>
+    <dimen name="m3">3dp</dimen>
+    <dimen name="m4">4dp</dimen>
+    <dimen name="m5">5dp</dimen>
+    <dimen name="m6">6dp</dimen>
+    <dimen name="m7">7dp</dimen>
+    <dimen name="m8">8dp</dimen>
+    <dimen name="m9">9dp</dimen>
+    <dimen name="m10">10dp</dimen>
+    <dimen name="m12">12dp</dimen>
+    <dimen name="m15">15dp</dimen>
+    <dimen name="m16">16dp</dimen>
+    <dimen name="m18">18dp</dimen>
+    <dimen name="m20">20dp</dimen>
+
+    <!--corners-->
+    <dimen name="r2">2dp</dimen>
+    <dimen name="r4">4dp</dimen>
+    <dimen name="r6">6dp</dimen>
+    <dimen name="r8">8dp</dimen>
+    <dimen name="r10">10dp</dimen>
+
+    <!--分割线-->
+    <dimen name="common_divider">1px</dimen>
+
+
+    <dimen name="text_12">12sp</dimen>
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="text_17">17sp</dimen>
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="text_20">20sp</dimen>
+    <dimen name="padding">16dp</dimen>
+
+    <!-- 标题字体大小 -->
+    <!-- 标题高度 -->
+    <!-- 大正文字体 -->
+    <dimen name="text_large_size">16sp</dimen>
+    <!-- 正常正文字体 -->
+    <!-- 小正文字体 -->
+    <!-- 内容块高度 -->
+    <!-- 内容块上距 -->
+    <!-- 内容块左右宽距 -->
+    <dimen name="content_margin_left_right">15.33dp</dimen>
+    <!-- 线高度 -->
+
+    <dimen name="indicatorHeight">2dp</dimen>
+
+    <dimen name="text_5">5sp</dimen>
+    <dimen name="text_15">15sp</dimen>
+    <dimen name="text_10">10sp</dimen>
+    <dimen name="imageview_20">20sp</dimen>
+
+    <!--边距-->
+    <dimen name="margin">15dp</dimen>
+    <!--标题栏高度-->
+    <dimen name="title_height">40dp</dimen>
+    <dimen name="item_margin">8dp</dimen>
+    <dimen name="jc_progress_dialog_margin_top">80dp</dimen>
+</resources>

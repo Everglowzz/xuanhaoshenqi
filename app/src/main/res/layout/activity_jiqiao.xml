@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/main_bg"
+                android:fitsSystemWindows="false">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:navigationIcon="@android:drawable/ic_menu_revert"
+            app:titleTextColor="@color/white"
+            android:background="@color/colorPrimary"
+            app:title="上牌选号技巧">
+
+
+        </android.support.v7.widget.Toolbar>
+
+        <ScrollView
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="@dimen/margin_20"
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    style="@style/text_norm_black"
+                    android:text="车管所上牌选号攻略技巧"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    style="@style/text_norm_black"
+                    android:textSize="@dimen/text_12"
+                    android:text="时间:2018-04-16 19:27"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    style="@style/text_norm_gray"
+                    android:layout_marginTop="@dimen/margin_20"
+                    android:lineSpacingMultiplier="1.5"
+                    android:textSize="@dimen/text_14"
+                    android:text="【导读】车管所上牌选号，按机动车号牌标准规定自行编排号牌号码是受到广大群众普遍关注的方式，自行编排需遵循一定规则，在规定范围内编选号码，不是所谓的个性化号牌。通过这种方式选择的号牌，需事后通知号牌厂制作，一般需要等待3至5天后再到车管所领取安装。"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:layout_marginTop="@dimen/margin_20"
+                    android:layout_width="wrap_content"
+                    android:src="@mipmap/ywbl18"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    style="@style/text_norm_black"
+                    android:layout_marginTop="@dimen/margin_20"
+                    android:lineSpacingMultiplier="1.5"
+                    android:textSize="@dimen/text_14"
+                    android:text="车管所上牌选号流程："
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    style="@style/text_norm_gray"
+                    android:layout_marginTop="@dimen/margin_20"
+                    android:lineSpacingMultiplier="1.5"
+                    android:textSize="@dimen/text_14"
+                    android:text="目前挂牌主要有两种，一是自选号码挂牌;二是随即十选一。
+一、自编号码选择车牌号的方法
+1、在车管所大厅里，找到自编选择号牌的查询机，输入自己的车辆类别、身份证号和车辆的车架号，登陆到编号系统。
+2、然后选择地区，比如鲁A，接着就可以在系统里自编车牌号码，一般有数字和字母可供选择，但由于现在新上牌子的车辆众多，比较好的号码都被挑完了，6、8、9等好号连在一起的已经很少。
+3、编好自己满意的车牌号后，按下确认，再到大厅服务窗口前办理其它手续即可。自编车牌号需要等4--6个工作日才可以取到。
+二、随机选择车牌号码方法
+1、另外一种选择车牌号的方法是在车牌号码库里随即选择，这个号码库是现成的号码，有很多是车辆报废、注销后刚存入的车牌号，因此也是有不少好号的。
+2、工作人员会询问你是否选择机选(一般是十选一)或是自编选号，如果你选择机选，则会在电脑上飞速的闪着车牌号，当你按下手里的确认键时，车牌不再滚动了，保留了十个3、在你面前，这时你要在2分钟之内在十个号码里面选择一个。运气好的能碰到比较吉利、顺口的车牌号码。
+4、选择好号码后，点击确认就不能再更改了，这时工作人员会立即给你现成的号牌，可以直接挂上了，不用像自编号牌那样再等3--5个工作日了。
+5、在拿号牌之前要买好车牌架和螺丝、螺丝帽，可以在车管所一并买全了。没必要跑到外边再买。
+
+你在办理新车入户的手续时，记得选择“自选车牌”，等到手续都完成时，工作人员会给你一张电脑单，上面打印有你的名字等简单资料，主要是有条形码供电脑认读。拿到这个电脑单，你i就可以去“电脑自选车牌”，那里有几部像银行提款机的机子，先把电脑单上的条形码在该机器的红外线头下扫描进去，你就可以按提示操作了。
+比如你想要这个车牌，就按提示可以输入A0791，电脑这时候就会自动提示：
+1、如果有这个号码，就会提示，“该号码还未被人使用，你是否选择该号码”，你可以选择“确定”或“取消”，点击确定，机器会自动吐出一张确认车牌的纸，你拿好去刚办理新车入户那里让工作人员确认，广州是马上就可以拿到行驶证和临时号牌证，正式车牌在15个工作日后去安装上。你也可以选择“取消”，那就要等2分钟后，电脑清空，才能再次读出你电脑单的条形码。你才可以另外输入其他你临时想要的号码了。
+2、如果已经没有了这个号码，就会提示，“该号码已经被人使用，你是否选择其他相近号码”，这时候下面会出现30个与你这个号码类似的车牌，你可以在这30个车牌中选择，同样是选择“确定”或“取消”，如果这30个你都不喜欢，就取消，等多2分钟，再选过。
+原则上可以选无数次，只不过要是有人排队的话，你每次取消就要重新排队，也挺麻烦的。所以建议你写好10个左右的号码，一旦首选没有还有备选。"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    style="@style/text_norm_black"
+                    android:layout_marginTop="@dimen/margin_20"
+                    android:lineSpacingMultiplier="1.5"
+                    android:textSize="@dimen/text_14"
+                    android:text="车管所上牌选号技巧："
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    style="@style/text_norm_gray"
+                    android:layout_marginTop="@dimen/margin_20"
+                    android:lineSpacingMultiplier="1.5"
+                    android:textSize="@dimen/text_14"
+                    android:text="一、挑选对车主具有纪念意义数字号码的车牌。因为现在大部分地区的车管所都会在规定数量内放出一批车牌号，提供给车主自行选择，在该范围内挑对自己有纪念意义的号，比如出生日月、结婚日期等等。
+二、挑选那些“万金油”型的车牌号码，也就是大家都会喜欢的通用的吉祥数字，或者连号，或者顺号等等，比如“888”“666”“789”“168”等等，但是这些号码牌一般而言都是要进行拍卖才能获得，价格较高。
+三、如果是有些信仰的朋友，可以通过一些流行的方法，比如易经算卦、星座或者塔罗牌等占卜来算一算适合哪些数字，然后再根据这个选择相应车牌。这可不是迷信哦，有一定的科学根据。
+四、如果车主有了几个喜欢的车牌号码，最好再准备几个与该号码相近或者相似的备用号码，一旦选不到第一喜欢的号码，也可以看一下有没有后备喜欢的号码。比如“366”和“369”，“288”和“388”等等。
+五、由于车牌号码众多，特殊的号码价格又过高，如果车主对于车牌号没有非常特别的要求的话，那么建议尽量选择读起来最顺口、看上去最好记最大众化的车牌，这样的车牌相对而言也比较容易能够选到，而且价格不高。
+六、车牌号码是由五位组成的，其中包含了三位的数字和两位的字母，在现阶段号码是这种形式，虽然车牌号的使用在不足的情况下是会发生变动的。对于字母，一般用户不喜欢的是SB和WC，而对于数字中国人比较喜欢的是6/8/9，这样的数字往往是比较吉利的，而对于数字4，往往人们是敬而远之，认为其实不好的征兆，如果对于这些不喜欢的话，在选择的时候，首先就可以规避这些。
+七、站在理性的角度上考虑，虽然车管所选车牌号需要在仅有的时间内完成，但是人们的选择不必那么纠结，看准了一个号码之后直接选就可以了。在网络中选择就会比较纠结一些，需要花费更多的时间，比如网络中会有不同号段，在车管所选择号码的时候一般由于人比较多，所以选择号码的时候时间比较短，不可能为你提供所有号码的选择。
+八、车管所选车牌号选择如果可以找到当地人比较少的车管所，一般在选择的时候就会比较简单一些。对于用户来说，选择距离家里比较近的车管所，在来回的过程中可以节省大量的时间，如果是选择比较远的车管所，虽然在赶往的路上一般就会浪费比较多的时间，但是在真正的选择车牌号码的时候由于人是比较少的，所以也是能够提供更加长的选择时间的。"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    style="@style/text_norm_black"
+                    android:layout_marginTop="@dimen/margin_20"
+                    android:lineSpacingMultiplier="1.5"
+                    android:textSize="@dimen/text_14"
+                    android:text="车牌号的命名规律："
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    style="@style/text_norm_gray"
+                    android:layout_marginTop="@dimen/margin_20"
+                    android:lineSpacingMultiplier="1.5"
+                    android:textSize="@dimen/text_14"
+                    android:text="车牌号的第一个是汉字：代表该车户口所在省的简称：如四川就是川，北京就是京，重庆就是渝，上海就是沪。
+第二个是英文：代表该车所在地的地市一级代码，规律一般是这样的，A是省会，B是该省第二大城市，C是该省第三大城市，依此类推。
+然后就是后五位啦，这后五位是这样的规律，如果你是第一个在该省该地区上的第一个车牌，从理论上讲你车牌后五位就是00001，如果你是第8965位车主，你的车牌的后五位理论上就应该是08965，如果车牌超过了数字的容量就是第100000万位时，就从第一位开始用字母A，后面用0001至9999，用完后第一位改成B再跟0001至9999，依此类推，也就是说如果车牌号越大说明车越新，前面的英文字母越靠后，说明车越新，这就是一般规律。"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    style="@style/text_norm_black"
+                    android:layout_marginTop="@dimen/margin_20"
+                    android:lineSpacingMultiplier="1.5"
+                    android:textSize="@dimen/text_14"
+                    android:text="车管所上牌选号注意事项："
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    style="@style/text_norm_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_20"
+                    android:gravity="center_vertical"
+                    android:lineSpacingMultiplier="1.5"
+                    android:text="1、选号时最好选择不容易记的号码，以防套牌。 2、选号时最好多看几页，那些都是可以来回看的，不过遇见中意的就不要多想了。 3、每个人都有每个人幸运数字，所以找到自己的最好像250 110 120 这些就自己考虑了，是我一定不要。"
+                    android:textSize="@dimen/text_14"/>
+
+                <TextView
+                    style="@style/text_norm_black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_20"
+                    android:gravity="center_vertical"
+                    android:lineSpacingMultiplier="1.5"
+                    android:text="扩展知识："
+                    android:textSize="@dimen/text_14"/>
+
+                <TextView
+                    style="@style/text_norm_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_20"
+                    android:layout_marginBottom="@dimen/margin_20"
+                    android:gravity="center_vertical"
+                    android:lineSpacingMultiplier="1.5"
+                    android:text="1、车牌号选好了还没上能换吗？
+如果已经在车管所登记注册了，就不可以更换了。
+若只是在网上选了号，没登记的话是可以更换的。车主在网上车管所车辆号码选择系统选定号码后，应当规定期限内到车辆管理所提交相关资料，申请办理业务。若逾期未申请办理的，所选号牌将自动失效，重新投入待选号池。所选号牌自动取消，不代表取消了机动车所有人再次进行网上预选号牌的资格，机动车所有人可以再次进行网上预选号牌。或者到车管所业务受理窗口采取“二十选一”机选系统办理选号。
+
+2、新车上牌，自选号码，前两个怎么不能选字母？
+网上自选车牌号，车牌号里的字母和数字放置是有规律的，同一类字母和数字组合在一段时间内使用，然后就会换成另一类的字母和数字组合，比如7天或10天换一次牌照号码组合。
+所以，想要好号码，应该要先咨询一下车管所的工作人员，他们起码知道大概的规律，象你只是前两个选字母，又不是选好号码，我想，车管所的工作人员可以告诉你大概的规律。
+
+3、如何查看车辆选号上牌预约时间？
+自主编排号牌号码的有效时限：自选号成功后，号牌号码从第二日起保留三个工作日（节假日、公休日顺延）。
+机动车所有人须在此期间检验车辆、申请注册登记，逾期未办理注册登记的，所选号牌号码无效。在此期间 已在网上成功选取号牌号码的机动车，不允许通过互联网进行再次选号或修改信息。
+网上申请选牌流程如下。
+（1）录入号码等校验信息登录。
+（2）录入机动车所有人和车辆信息。
+（3）按照编码规则编排号牌号码。
+（4）确认号码后打印机动车注册申请表。
+（5）选择预约办理时间。
+完成网上选号后，就可以到相应的车管所查验车辆、申请注册登记并领取牌照了"
+                    android:textSize="@dimen/text_14"/>
+            </LinearLayout>
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6a6da9</color>
+    <color name="colorPrimaryDark">#6a6da9</color>
+    <color name="colorAccent">#6a6da9</color>
+
+    <color name="main_bg">#edf4ff</color>
+
+    <color name="main_gray">#9da4a7</color>
+    <color name="main_gray1">#272e3b</color>
+    <color name="text_gray">#949494</color>
+    <color name="main_black">#272e3b</color>
+    <color name="main_while">#ffffff</color>
+    <color name="main_orange">#d74a30</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_eeeeee">#eeeeee</color>
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_c61a04">#c61a04</color>
+    <color name="color_cccccc">#cccccc</color>
+    <color name="color_d81e06">#d81e06</color>
+    <color name="color_b0b8b2">#b0b8b2</color>
+    <color name="color_333333">#333333</color>
+    <dimen name="margin_20">20px</dimen>
+
+    <color name="cardShadowColor_1">#cbdeff</color>
+    <color name="cardShadowColor_2">#b7def4</color>
+    <color name="cardShadowColor_3">#5bbcf9</color>
+    <color name="cardShadowColor_4">#5c8af5</color>
+    <dimen name="cardPadding1">0.2px</dimen>
+    <dimen name="cardPadding2">0.5px</dimen>
+    <dimen name="cardPadding3">0.9px</dimen>
+    <dimen name="cardPadding4">1.4px</dimen>
+    <dimen name="cardPadding5">2px</dimen>
+    <dimen name="cardRadius">10dp</dimen>
+
+
+    <color name="color_orange_red">#f03f33</color>
+    <color name="lineColor">#11333333</color>
+    <color name="black_font">#bb000000</color>
+    <color name="black_bg">#66333333</color>
+
+    <color name="transparent_pressed">#26FFFFFF</color>
+    <color name="custom_red">@color/colorAccent</color>
+    <color name="white_pressed">#F1F1F1</color>
+    <color name="gray">#82828282</color>
+</resources>

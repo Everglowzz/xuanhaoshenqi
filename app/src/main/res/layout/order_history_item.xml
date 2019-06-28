@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/shape_white_8r"
+    android:orientation="horizontal"
+    android:id="@+id/rl_order_history_item"
+    android:layout_marginLeft="@dimen/margin_20"
+    android:layout_marginRight="@dimen/margin_20"
+    >
+    
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:lines="1"
+        android:text="城市"
+        android:gravity="center"
+        android:textSize="@dimen/notes_text_content_title_size"/>
+    <TextView
+        android:id="@+id/tv_city"
+        android:layout_marginLeft="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:lines="1"
+        android:gravity="center"
+        android:textSize="@dimen/notes_text_content_title_size"/>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:text="车牌前缀"
+        android:lines="1"
+        android:gravity="center"
+        android:textSize="@dimen/notes_text_content_title_size"/>
+    <TextView
+        android:id="@+id/tv_qianzhui"
+        android:layout_marginLeft="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginRight="30dp"
+        android:layout_height="match_parent"
+        android:lines="1"
+        android:gravity="center"
+        android:textSize="@dimen/notes_text_content_title_size"/>
+  
+   
+
+
+</LinearLayout>
